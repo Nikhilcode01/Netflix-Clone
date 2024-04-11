@@ -1,0 +1,102 @@
+body {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.491), rgba(0, 0, 0, 0.416)), url(./images/background.jpg);
+  background-size: cover;
+  height: 100vh;
+}
+
+.top {
+  width: 100vw;
+  height: 70px;
+  background-color: rgba(0, 0, 0, 0);
+  padding: 0px 20px;
+  display: flex;
+  align-items: center;
+}
+
+.top img {
+  width: 150px;
+}
+
+.login-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+}
+
+.login-box {
+  background-color: rgba(0, 0, 0, 0.80);
+  width: 430px;
+  height: 630px;
+  border-radius: 5px;
+  padding: 50px;
+  margin-top: 20px;
+}
+
+.small-text {
+  font-size: 13px;
+}
+
+.form-control {
+  box-shadow: none;
+  border: 1px solid white;
+}
+
+input {
+  margin-bottom: 20px;
+}
+
+.form-control:active {
+  border: 1px solid white;
+}
+
+input:focus {
+  border: none;
+}
+
+.sign-in-btn {
+  width: 100%;
+}
+
+.p1 {
+  color: rgba(212, 212, 212, 0.75);
+}
+
+.p2 {
+  color: rgba(212, 212, 212, 0.75);
+}
+
+.fotter {
+  background-color: rgba(0, 0, 0, 0.80);
+  margin-top: 70px;
+  padding: 0px 0px 100px 200px;
+  width: 100%;
+}
+
+.fotter h3 {
+  font-size: 20px;
+  color: rgba(212, 212, 212, 0.75);
+  padding-top: 20px;
+}
+
+.links {
+  display: flex;
+}
+
+.collums {
+  padding: 30px 160px 0px 0px;
+  color: rgba(212, 212, 212, 0.75);
+}
+
+.lang-btn {
+  color: rgba(212, 212, 212, 0.75);
+  border: 1px solid rgba(212, 212, 212, 0.75);
+  margin-top: 20px;
+  padding: 10px;
+}
+
+.globe-logo {
+  height: 30px;
+  width: 30px;
+  margin-right: 5px;
+}
